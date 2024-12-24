@@ -39,6 +39,7 @@ class employeeInfo{
 		employeeInfo EI2=new employeeInfo();
 		employeeInfo EI3=new employeeInfo();
 		employeeInfo EI4=new employeeInfo();
+		employeeInfo EI5=new employeeInfo();
 	}
 }
 
