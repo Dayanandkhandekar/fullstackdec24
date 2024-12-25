@@ -9,10 +9,10 @@ class Company{
 	
 	static void m1() {
 		int a;
-		Company cpn=new Company();
-		System.out.println("inside static method"+cpn.cpnId);
+		Company cpn1=new Company();
+		System.out.println("inside static method"+cpn1.cpnId);
 		System.out.println("static fields"+noOfEmployee);
-		cpn.m2();
+		cpn1.m2();
 		m3();
 	}
 	
@@ -35,23 +35,28 @@ class Company{
 		System.out.println("inside static block");
 	}
 	
-	public static void main(String[] args) {
-		System.out.println("Inside main method");
-
-	}
+	
 
 }
    class Department{
 	   void m2() {
-		   Company cpn=new Company();
-		   System.out.println("instance"+cpn.cpnId);
+		   Company cpn2=new Company();
+		   System.out.println("instance"+cpn2.cpnId);
 		   System.out.println("static fields"+Company.noOfEmployee);
 	   }
 	   static void m3() {
-		   Company cpn=new Company();
-		   System.out.println("instance"+cpn.cpnId);
-		   System.out.println("static field"+cpn.noOfEmployee);
+		   Company cpn3=new Company();
+		   System.out.println("instance"+cpn3.cpnId);
+		   System.out.println("static field"+Company.noOfEmployee);
+		   
 	   }
+	   public static void main(String[] args) {
+			System.out.println("Inside main method");
+			Company cpn1=new Company();
+			Company cpn2=new Company();
+			Company cpn3=new Company();
+
+		}
    }
 
 
