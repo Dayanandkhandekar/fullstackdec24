@@ -10,7 +10,7 @@ public class Car {
 		Car c1=new Car();
 		System.out.println("inside static method"+ c1.carBrandName);
 		
-		System.out.println("inside static fields"+Car.carNo);
+		System.out.println("inside static fields"+carNo);
 		
 		}
 	void n2() {
@@ -24,7 +24,7 @@ public class Car {
 	static {
 		Car c=new Car();
 		System.out.println("inside static block");
-		System.out.println("inside static block"+ Car.carName);
+		System.out.println("inside static block"+ carName);
 		System.out.println("inside static block"+ c.carBrandName);
 	}
 	}
@@ -48,7 +48,7 @@ public class Car {
 		}
 		
 	static {
-		System.out.println("inside static block"+Car2.carSpeed);
+		System.out.println("inside static block"+carSpeed);
 	}
 	public static void main(String[] args) {
 		System.out.println("inside main");
