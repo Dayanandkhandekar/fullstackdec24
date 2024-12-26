@@ -53,6 +53,7 @@ class Employee{
 		
 	}
 	
+}
 	
 	class Bank{
 		
@@ -66,7 +67,7 @@ class Employee{
 		 
 		 }
 		 
-		 {
+		 static void m3(){
 			 Employee e=new Employee();
 			 System.out.println("instance field"+e.empName);
 			 System.out.println("static field "+Employee.empProject);
@@ -81,5 +82,5 @@ class Employee{
 			
 	
 	
-}
+
 
