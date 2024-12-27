@@ -35,11 +35,11 @@ class employeeInfo{
     }
     public static void main(String[] args) {
 		System.out.println("Inside Main");
-		employeeInfo EI1=new employeeInfo();
-		employeeInfo EI2=new employeeInfo();
-		employeeInfo EI3=new employeeInfo();
-		employeeInfo EI4=new employeeInfo();
-		employeeInfo EI5=new employeeInfo();
+		employeeInfo E1=new employeeInfo();
+		employeeInfo E2=new employeeInfo();
+		employeeInfo E3=new employeeInfo();
+		employeeInfo E4=new employeeInfo();
+		employeeInfo E5=new employeeInfo();
 	}
 }
 
