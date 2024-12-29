@@ -35,8 +35,8 @@ public class Car {
 		static int carSpeed;
 		static void n1() {
 			Car2 c2=new Car2();
-			System.out.println("inside static method"+ c2.carNo);
-			
+			System.out.println("inside static method"+ Car2.carSpeed);
+			System.out.println("inside static method"+ c2.carBrandName);
 			System.out.println("inside static fields"+Car.carNo);
 			
 			Car c1=new Car();
@@ -55,5 +55,26 @@ public class Car {
 	Car c2=new Car();
 	Car c1=new Car();
 	Car c=new Car();
+	Car2 i3=new Car2();
+	
+	System.out.println("I====="+i3);
+	
+    String c3=new String("am====");
+    
+    String i1=new String("am====");
+    
+    String c4="Student";
+    String i2="Student";
+    
+    System.out.println(c3==i1);
+    System.out.println(c4==i2);
+    
+    
+
+	}
+	
+	@Override
+	public String toString() {
+		return "Car2 [carBrandName=" + carBrandName + ", carNo=" + carNo + "]";
 	}
 }
