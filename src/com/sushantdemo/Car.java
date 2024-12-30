@@ -57,7 +57,7 @@ public class Car {
 	Car c=new Car();
 	Car2 i3=new Car2();
 	
-	System.out.println("I====="+i3);
+	System.out.println("I=====");
 	
     String c3=new String("am====");
     
