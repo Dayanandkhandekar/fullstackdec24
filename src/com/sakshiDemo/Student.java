@@ -73,7 +73,19 @@ public class Student {
 		System.out.println("s1=="+s1);
 		}
 	
-	
+	//constructor override
+
+	public Student(int studentId, String studentName) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	static void m2() {
+		Student s4=new Student(123,"sakshi");
+		System.out.println("s4=="+s4);
+
+		
+	}
 
 	
 	
@@ -82,16 +94,26 @@ public class Student {
 	
 	public static void main(String[]args) {
 		m1();
-		
-		
-		
-		
-		
-	}
+		m2();
+		}
 
-    
-   
-    }
 
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+	
 
 
