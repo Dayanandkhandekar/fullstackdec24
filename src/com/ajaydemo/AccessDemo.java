@@ -1,6 +1,14 @@
 package com.ajaydemo;
 
 public class AccessDemo {
+	public static void main(String[] args) {
+		System.out.println("Inside main method");
+		Company cpn1=new Company();
+		Company cpn2=new Company();
+		Company cpn3=new Company();
+
+		
+	}
 }
 class Company{
 	int cpnId;
@@ -36,6 +44,7 @@ class Company{
 	}
 	
 	
+	
 
 }
    class Department{
@@ -49,14 +58,9 @@ class Company{
 		   System.out.println("instance"+cpn3.cpnId);
 		   System.out.println("static field"+Company.noOfEmployee);
 		   
+		   
 	   }
-	   public static void main(String[] args) {
-			System.out.println("Inside main method");
-			Company cpn1=new Company();
-			Company cpn2=new Company();
-			Company cpn3=new Company();
-
-		}
+	   
    }
 
 
