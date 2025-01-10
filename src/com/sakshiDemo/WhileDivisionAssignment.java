@@ -4,7 +4,7 @@ public class WhileDivisionAssignment {
 static void m1() {
 	int a=50;
 	int sum=0;
-	while(a>1) {
+	while(a>=1) {
 		
 		a--;
 		
@@ -14,7 +14,7 @@ static void m1() {
 			
 			
 			sum+=a;
-			System.out.println("addition="+sum);
+			
 			
 		}
 		
@@ -22,6 +22,7 @@ static void m1() {
 
 		
 	}
+	System.out.println("addition="+sum);
 	
 }
 public static void main(String[] args) {
@@ -29,3 +30,4 @@ public static void main(String[] args) {
 	
 }
 }
+

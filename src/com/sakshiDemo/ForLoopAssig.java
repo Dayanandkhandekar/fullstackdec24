@@ -10,9 +10,10 @@ public class ForLoopAssig {
 			
 			sum+=a;
 			 
-			System.out.println("addition of even no="+sum);
 			
 		}
+		System.out.println("addition of even no="+sum);
+		
 		
 	}
 	
