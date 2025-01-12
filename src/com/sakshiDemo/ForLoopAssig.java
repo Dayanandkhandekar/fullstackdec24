@@ -3,7 +3,7 @@ package com.sakshiDemo;
 public class ForLoopAssig {
 	
 	
-	static void m1() {
+	static void m2() {
 		int sum=0;
 		for(int a=1; a<=50;a++) {
 			
@@ -25,10 +25,8 @@ public class ForLoopAssig {
 		
 	}
 	
-
-
 public static void main(String[] args) {
-	m1();
+	m2();
 	
 }
 }
