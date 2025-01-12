@@ -2,14 +2,22 @@ package com.sakshiDemo;
 
 public class ForLoopAssig {
 	
+	
 	static void m1() {
 		int sum=0;
-		for(int a=2; a<=50;a+=2) {
-			System.out.println("even numbers="+a);
+		for(int a=1; a<=50;a++) {
+			
+			if(a%2==0) {
+				System.out.println("even numbers="+a);
+				
+				sum+=a;
+				 
+				
+			}
 			
 			
-			sum+=a;
-			 
+			
+			
 			
 		}
 		System.out.println("addition of even no="+sum);
