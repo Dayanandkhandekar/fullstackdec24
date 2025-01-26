@@ -12,13 +12,6 @@ public class Student {
 		return "Student [studentId=" + studentId + ", studentName=" + studentName + "]";
 	}
 
-
-
-
-
-
-
-
 	public int getStudentId() {
 		return studentId;
 	}
@@ -60,10 +53,6 @@ public class Student {
 	    Student s2=new Student("");
 	    Student s3=new Student(1,6);
 	    
-	    
-	    
-	    
-		
 		s.setStudentId(4);
 		s.setStudentName("Sakshi Ghule");
 		System.out.println("s=="+s);
