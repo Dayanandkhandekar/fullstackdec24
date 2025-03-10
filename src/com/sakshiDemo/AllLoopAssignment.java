@@ -90,9 +90,8 @@ public class AllLoopAssignment {
 			}
 			
 	   
-		
 			
-			System.out.println("Do you want to continue ");
+	     System.out.println("Do you want to continue ");
 			
 		 String b=s.next();
 		 if(b.equalsIgnoreCase("y")) {
